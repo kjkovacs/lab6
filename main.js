@@ -2,7 +2,7 @@ import './style.css'
 import { createClient } from '@supabase/supabase-js'
 
 const supabaseUrl = 'https://vobutlvkzvsmhupksube.supabase.co'
-const supabaseKey = 'sb_publishable_SDh3fS-FphMl190vDL-bFA_qFci1OlL'
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZvYnV0bHZrenZzbWh1cGtzdWJlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAzMDYyNzAsImV4cCI6MjA5NTg4MjI3MH0.sv2hqpfzszLd6dT70XoMJjOvU0YbajRRozdQI-qUFXE'
 
 const supabase = createClient(supabaseUrl, supabaseKey)
 
